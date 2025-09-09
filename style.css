@@ -1,197 +1,221 @@
 /* Corps du site */
 body {
-    font-family: "Poppins", Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #111;
-    color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: white;
 }
 
 /* Section accueil */
 .hero {
-    max-width: 800px;
-    padding: 60px 20px 40px 20px;
-    margin: 20px auto;
-    text-align: center;
-    background: #220000;
-    border-radius: 15px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  max-width: 800px;
+  padding: 60px 20px 40px 20px;
+  margin: 20px auto;
+  text-align: center;
+  background: #220000;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
 
 .logo {
-    width: 120px;
-    height: auto;
-    margin-bottom: 20px;
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 5px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-    color: #ff0000;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #ff0000;
 }
 
 .hero h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #fff200;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff200;
 }
 
 .hero p {
-    font-size: 18px;
-    margin: 5px 0;
-    color: #ffffff;
+  font-size: 18px;
+  margin: 5px 0;
+  color: #ffffff;
 }
 
 .hero .btn {
-    display: inline-block;
-    background: #ff0000;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
-    transition: 0.3s;
+  display: inline-block;
+  background: #ff0000;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.3s;
 }
 
 .hero .btn:hover {
-    background: #aa0000;
+  background: #aa0000;
 }
 
 /* Packs */
 #packs {
-    text-align: center;
-    padding: 50px 20px;
-    background: #000;
+  text-align: center;
+  padding: 50px 20px;
+  background: #000;
 }
 
 #packs h2 {
-    font-size: 32px;
-    margin-bottom: 30px;
-    color: #ff0000;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #ff0000;
 }
 
 .packs-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* centre les packs */
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .pack {
-    display: flex;
-    align-items: center;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 20px;
-    width: 300px;
-    color: white;
-    text-align: left;
-    box-shadow: 0 8px 20px rgba(255,0,0,0.3);
-    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(255,0,0,0.3);
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
 }
 
 .pack:hover {
-    transform: scale(1.05);
-    background: linear-gradient(135deg, rgba(255,0,0,0.4), rgba(0,0,0,0.5));
-    box-shadow: 0 10px 25px rgba(255,0,0,0.6);
+  transform: scale(1.05);
+  background: linear-gradient(135deg, rgba(255,0,0,0.4), rgba(0,0,0,0.5));
+  box-shadow: 0 10px 25px rgba(255,0,0,0.6);
 }
 
 .diamond {
-    width: 50px;
-    height: auto;
-    margin-right: 15px;
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
 }
 
 .pack-text h3, .pack-text p, .pack-text button {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .pack-text button {
-    background: #ff0000;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0 0 10px rgba(255,0,0,0.5);
+  background: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(255,0,0,0.5);
 }
 
 .pack-text button:hover {
-    background: #aa0000;
-    box-shadow: 0 0 20px rgba(255,0,0,0.7);
+  background: #aa0000;
+  box-shadow: 0 0 20px rgba(255,0,0,0.7);
 }
 
 /* Section Paiement */
 #paiement {
-    text-align: center;
-    padding: 50px 20px;
-    background: #111;
+  text-align: center;
+  padding: 50px 20px;
+  background: #111;
 }
 
 #paiement h2 {
-    color: #ff0000;
-    font-size: 28px;
-    margin-bottom: 30px;
+  color: #ff0000;
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 
 .payment-methods-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .payment-method {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .payment-method h3 {
-    font-size: 22px;
-    color: #fff200;
-    margin-bottom: 10px;
+  font-size: 22px;
+  color: #fff200;
+  margin-bottom: 10px;
 }
 
 .pay-logo {
-    width: 120px;
-    height: auto;
+  width: 120px;
+  height: auto;
 }
 
 /* Footer */
 footer {
-    text-align: center; /* centrage corrigé */
-    padding: 30px 20px;
-    background: #111;
+  text-align: center;
+  padding: 30px 20px;
+  background: #111;
 }
 
 footer p {
-    font-size: 18px;
-    color: #ff0000; /* coloré pour mieux voir */
+  font-size: 18px;
+  color: #ff0000;
 }
-/* Boutons WhatsApp pour Recharger / Souscrire */
+
+/* Boutons WhatsApp */
 .btn-whatsapp {
-    display: inline-block;
-    background-color: #25D366; /* Vert WhatsApp */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: 0.3s;
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
 }
 
 .btn-whatsapp:hover {
-    background-color: #1ebe57;
-    transform: scale(1.05);
+  background-color: #1ebe57;
+  transform: scale(1.05);
+}
+
+/* Publicités */
+.ads-container {
+  margin: 20px auto;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .packs-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
